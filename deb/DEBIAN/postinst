@@ -1,2 +1,2 @@
 #!/bin/bash
-systemctl enable prometheus_ipmi_fan_exporter; systemctl restart prometheus_ipmi_fan_exporter
+systemctl daemon-reload; sleep 1;systemctl enable prometheus_ipmi_fan_exporter; systemctl restart prometheus_ipmi_fan_exporter

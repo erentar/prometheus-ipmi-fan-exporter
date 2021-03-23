@@ -7,7 +7,7 @@ python script written with ipmitool for monitoring fan speeds on Dell Rx20 serve
 # Installation
 ## Debian package
 deb/ directory is for building a debian package.<br>
-to build a debian package, run `dpkg -b ./deb ./prometheus-ipmi-fan-exporter_1.0.0-0_all.deb`
+to build a debian package, run `build_debian_package.sh`
 
 ## Manual installation
 
