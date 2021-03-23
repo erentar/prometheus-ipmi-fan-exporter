@@ -1,0 +1,14 @@
+[Unit]
+Description=Fan monitor/exporter for Prometheus
+After=network.target
+StartLimitBurst=5
+StartLimitIntervalSec=10
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+ExecStart=/usr/bin/python3 /usr/local/bin/prometheus_ipmi_fan_exporter.py
+
+[Install]
+WantedBy=multi-user.target
