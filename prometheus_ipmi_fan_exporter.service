@@ -1,5 +1,5 @@
 [Unit]
-Description=Fan monitor/exporter for Prometheus
+Description=Prometheus fan monitor/exporter for Dell Rx20 servers
 After=network.target
 StartLimitBurst=5
 StartLimitIntervalSec=10

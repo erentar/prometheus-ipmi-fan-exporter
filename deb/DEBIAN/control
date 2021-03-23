@@ -1,0 +1,7 @@
+Package: prometheus-ipmi-fan-exporter
+Version: 1.0.0
+Architecture: all
+Depends: python3
+Maintainer: erentar2002 <erentar2002@gmail.com>
+Homepage: https://github.com/erentar/prometheus_ipmi_fan_exporter
+Description: Prometheus fan monitor/exporter for Dell Rx20 servers
