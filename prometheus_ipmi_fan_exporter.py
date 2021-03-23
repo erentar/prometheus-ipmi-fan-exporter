@@ -17,7 +17,7 @@ class ipmi():
 						return "0"
 
 		for i in re.findall("Fan..", rawSensors):
-				returnStr += "py_fans{"+i+"} "+regexQuery(i)+"\n"
+				returnStr += "py_fans{fan=\""+i+"\"} "+regexQuery(i)+"\n"
 		return returnStr
 
 import http.server
